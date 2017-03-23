@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<title>회원가입 폼</title>
+</head>
+	<body>
+	<Form Action = "AddMemberServlet">
+	<table border=0>
+	<tr>
+		<td> 일반회원아이디* </td>
+		<td> <input type = "text" name ="ID"> </td>
+	</tr>
+	<tr>
+		<td>일반회원이름*</td> 
+		<td><input type = "text" name ="NAME"></td>
+	</tr>
+	<tr>
+		<td>비밀번호* </td>
+		<td><input type = "password" name ="PW"></td>
+	<tr>
+		<td>비밀번호확인* </td>
+		<td><input type = "password" name ="PWPW"></td>
+	</tr>
+	<tr>
+		<td>비밀번호힌트* </td>
+		<td><select name ="PW_HINT">
+					<option selected>-- 선택하세요 --</option>
+					<option>내가 태어난 도시</option>
+					<option>어렸을때 나의 별명</option>
+					<option>부모님의 이름</option>
+					<option>가장 친한 친구의 이름</option>
+				</select>
+		</td>
+	</tr>
+	<tr>
+		<td>비밀번호힌트답* </td>
+		<td><input type = "text" name="HINT_ANSWER"></td>
+	</tr>
+	<tr>
+		<td>전화번호* </td>
+		<td><input type = "text" name ="TEL1">-<input type = "text" name ="TEL2">-<input type = "text" name ="TEL3"></td>
+	</tr>
+	<tr>
+		<td>이메일주소* </td>
+		<td><input type = "text" name ="EMAIL"></td>
+	</tr>
+	<tr>
+		<td><input type = "submit" value ="가입신청	"></td>
+	</tr>
+	</table>
+	</Form>
+	</body>
+</html>
